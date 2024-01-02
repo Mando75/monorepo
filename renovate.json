@@ -3,16 +3,17 @@
   "extends": [
     "config:recommended"
   ],
-   "packageRules": [
+ "packageRules": [
     {
       "matchPackagePatterns": [
         "*"
       ],
       "matchUpdateTypes": [
+        "minor",
         "patch"
       ],
       "groupName": "all non-major dependencies",
-      "groupSlug": "all-patch"
+      "groupSlug": "all-minor-patch"
     }
   ]
 }
