@@ -1,0 +1,27 @@
+{
+  "name": "@mando75/fetch-client",
+  "version": "1.0.0",
+  "description": "A fetch wrapper for the browser that integrates schema checking and automatic retries",
+  "main": "dist/fetch-client.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//Mando75/monorepo.git"
+  },
+  "dependencies": {
+    "p-retry": "6.2.0",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "1.4.0",
+    "eslint": "8.57.0",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "vitest": "1.4.0"
+  }
+}
