@@ -4,10 +4,19 @@
   "description": "A fetch wrapper for the browser that integrates schema checking and automatic retries",
   "main": "dist/fetch-client.js",
   "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist/fetch-client.js",
+    "tsconfig.json",
+    "README.md",
+    "dist/fetch-client.d.ts",
+    "dist/fetch-client.js.map"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsc -p tsconfig.json --watch",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
@@ -22,6 +31,7 @@
     "eslint": "8.57.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "typescript": "5.4.2",
     "vitest": "1.4.0"
   }
 }
