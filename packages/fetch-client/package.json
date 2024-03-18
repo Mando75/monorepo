@@ -10,7 +10,7 @@
     "tsconfig.json",
     "README.md",
     "dist/fetch-client.d.ts",
-    "dist/fetch-client.js.map"
+    "dist/fetch-client.d.ts.map"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
