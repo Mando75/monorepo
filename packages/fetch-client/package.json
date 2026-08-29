@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "p-retry": "6.2.0",
-    "zod": "3.22.4"
+    "zod": "4.5.4"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "1.4.0",
